@@ -22,7 +22,7 @@
 
         <Frame Margin="40"
                BorderColor="White">
-            <Label Text="Desenvolvido por Paloma Mendes"
+            <Label Text="Desenvolvido por Camila Locatelli"
                TextColor="Violet"
                FontSize="15"
                HorizontalTextAlignment="Center"/>
