@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelHospedagem.Views.Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="black">
+    
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+        <Label Text="Sobre"
+               TextColor="Violet"
+               FontFamily="BebasNeueRegular"
+               FontSize="35"
+               HorizontalTextAlignment="Center"/>
+        <Frame Margin="10"
+               BorderColor="White">
+            <Label Text="Aplicativo criado com a finalidade de administrar reservas de hospedagem. Com ele, você pode calcular diárias, escolher tipos de quartos, definir a quantidade de hóspedes e planejar sua estadia com facilidade."
+               TextColor="White"
+               FontSize="16"
+               LineBreakMode="WordWrap"
+               HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Frame Margin="40"
+               BorderColor="White">
+            <Label Text="Desenvolvido por Paloma Mendes"
+               TextColor="Violet"
+               FontSize="15"
+               HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Button Text="Retornar" 
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center"
+                BackgroundColor="Purple"
+                TextColor="White"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                Margin="0,10"/>
+        
+    </VerticalStackLayout>
+</ContentPage>
